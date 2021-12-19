@@ -1,0 +1,75 @@
+.footer-img {
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/padaria_red.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer-info {
+    background-color: #FFFCE5;
+    padding: 80px 20px;
+    /* display: grid; */
+
+}
+
+.footer-info .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.footer h2 {
+    font-family: 'Livvic', sans-serif;
+    font-weight: 500;
+    font-size: 3.75rem;
+    line-height: 1;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.footer p,
+.footer li {
+    font-size: 1.5rem;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer p {
+    line-height: 2rem;
+    max-width: 25ch;
+}
+
+.footer li {
+    line-height: 2.25rem;
+}
+
+.footer li:last-child {
+    margin-top: 20px;
+}
+
+.footer-info .grid :nth-child(2n) {
+    justify-self: end;
+}
+
+.footer-direitos {
+    background-color: #FFFCE5;
+    padding: 40px;
+}
+
+.footer-direitos h3 {
+    font-family: 'Livvic', sans-serif;
+    font-size: 1.125;
+    line-height: 1;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer h2::before {
+    content: "";
+    width: 3.75rem;
+    height: 0.3125rem;
+    background-color: #433E0E;
+    position: absolute;
+    bottom: calc(-0.3125rem - 4px);
+}

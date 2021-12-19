@@ -1,0 +1,87 @@
+@media (max-width:1000px) {
+
+    .botao,
+    .botao img {
+        font-size: 2rem;
+        line-height: 1;
+
+    }
+
+    .botao {
+        padding: 15px 20px;
+    }
+
+
+}
+
+@media (max-width:700px) {
+    .lanche {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .lanche-img {
+        height: 250px;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .botao {
+        margin-top: 20px;
+        position: initial;
+    }
+
+    .lanche-first .preco {
+        font-size: 2rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .pratos h2 {
+        font-size: 3rem;
+    }
+
+    .pratos {
+        padding: 60px 20px;
+    }
+
+    .lanche {
+        margin-top: 40px;
+    }
+
+    .lanche-grid {
+        gap: 15px;
+    }
+
+    .lanche-cont {
+        padding: 30px;
+    }
+}
+
+@media(max-width:400px) {
+    .lanche-first .preco {
+        font-size: 1.6rem;
+        padding: 5px 10px;
+        bottom: 5px;
+    }
+
+    .botao,
+    .botao img {
+        font-size: 1.75rem;
+        line-height: 1;
+
+    }
+
+    .botao {
+        padding: 10px 15px;
+    }
+
+    .botao div {
+        gap: 5px;
+    }
+
+    .lanche-cont {
+        padding: 15px 20px 20px 20px;
+    }
+
+}

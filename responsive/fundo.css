@@ -1,0 +1,11 @@
+@media (max-width: 800px) {
+    .fundo h1::after {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .fundo {
+        height: 400px;
+    }
+}

@@ -1,0 +1,137 @@
+.pratos {
+    padding: 80px 20px;
+}
+
+.pratos h2 {
+    font-family: 'Livvic', sans-serif;
+    font-size: 3.75rem;
+    line-height: 1.1;
+    font-weight: 500;
+    /* margin-bottom: calc(0.3125rem + 4px); */
+    position: relative;
+}
+
+
+
+.pratos h2::after {
+    content: "";
+    position: absolute;
+    width: 3.75rem;
+    height: 0.3125rem;
+    background-color: #433E0E;
+    bottom: calc(-0.3125rem - 4px);
+    left: 0px;
+}
+
+.lanche {
+    display: grid;
+    grid-template-columns: 12fr 10fr;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+    margin-top: 50px;
+}
+
+.lanche-img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px 0px 0px 5px;
+    height: 100%;
+    /* display: none; */
+}
+
+.lanche-cont {
+    background-color: #FAFAFA;
+    padding: 40px;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+
+    /* border: solid 1px black; */
+
+}
+
+.lanche-grid {
+    display: grid;
+    gap: 25px;
+    align-content: flex-start;
+
+}
+
+.lanche-cont h3 {
+    font-family: 'Livvic', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+
+}
+
+.lanche-cont h4 {
+    font-family: 'Livvic', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+
+}
+
+.lanche-cont p {
+    font-size: 1.125rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+    max-width: 28ch;
+    color: #3D3D3D;
+}
+
+.lanche-first {
+    position: relative;
+
+}
+
+.lanche-first .preco {
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    z-index: 2;
+    padding: 10px 20px;
+    font-size: 2.5rem;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 500;
+    line-height: 3rem;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+.botao {
+    /* margin-top: 50%; */
+    display: inline-block;
+    position: absolute;
+    bottom: 40px;
+    font-size: 2.5rem;
+    padding: 20px 40px;
+    background-color: #A59934;
+    color: #FAFAFA;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    line-height: 1;
+    z-index: 0;
+}
+
+.botao:hover {
+    background-color: #776f20;
+}
+
+.botao div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.botao img {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-block;
+}

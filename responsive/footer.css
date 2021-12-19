@@ -1,0 +1,40 @@
+@media (max-width:600px) {
+    .footer h2 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .footer p,
+    .footer li {
+        font-size: 1.3rem;
+    }
+
+    .footer-info .grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-info .grid :nth-child(2n) {
+        justify-self: start;
+    }
+
+    .footer-info p {
+        max-width: initial;
+    }
+
+    .footer li:last-child {
+        margin-top: 10px;
+    }
+
+    .footer h2::before {
+        display: none;
+    }
+
+    .footer-info {
+        padding: 60px 20px;
+    }
+
+    .footer-direitos {
+        padding-top: 0px;
+    }
+}

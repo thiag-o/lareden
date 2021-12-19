@@ -1,0 +1,30 @@
+@media (max-width:1200px) {
+    .qualidade h2 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 800px) {
+    .qualidade h2 {
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+
+    .qualidade h2::after {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .qualidade-cont {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 60px 20px;
+    }
+
+    .qualidade h2 {
+        margin-bottom: 10px;
+    }
+
+}

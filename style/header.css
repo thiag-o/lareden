@@ -1,0 +1,30 @@
+.header {
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.menu {
+    display: flex;
+    gap: 60px;
+    /* flex-wrap: wrap; */
+}
+
+a {
+    font-family: 'Livvic', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #1B1800;
+    padding: 10px 20px;
+}
+
+.header a:hover {
+    color: #BAAE41;
+}
+
+.bg-header {
+    background-color: #FFFCE5;
+}
